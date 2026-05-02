@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Business Problem
+## Business Problem
 
 Insurance providers must balance competitive pricing with sustainable portfolio profitability. When higher-risk customers are underpriced, or lower-risk customers are over-discounted, the business experiences margin leakage and unfavorable portfolio mix.
 
@@ -20,7 +20,7 @@ This project addresses five core business questions:
 
 ---
 
-## 🎯 Key Findings
+## Key Findings
 
 ### 1. Risk Concentration: The Pareto Imbalance
 
@@ -55,7 +55,7 @@ Obesity alone is not a strong cost driver. The real risk emerges from the **inte
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Data manipulation:** `pandas`, `numpy`
 - **Visualization:** `matplotlib`, `seaborn`
@@ -66,7 +66,7 @@ Obesity alone is not a strong cost driver. The real risk emerges from the **inte
 
 ---
 
-## 📊 Methodology
+## Methodology
 
 The project follows a structured analytical pipeline:
 
@@ -82,7 +82,7 @@ The project follows a structured analytical pipeline:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | MAE | RMSE | R² |
 |-------|-----|------|------|
@@ -98,7 +98,7 @@ The tuned Random Forest serves as the predictive benchmark, while the GLM provid
 
 ---
 
-## 🏗 Pricing Framework Output
+## Pricing Framework Output
 
 The analysis produces a deployable three-tier pricing structure based on GLM multipliers:
 
@@ -113,6 +113,3 @@ The analysis produces a deployable three-tier pricing structure based on GLM mul
 ![GLM Risk Multipliers](images/glm_multipliers.png)
 *Figure 4: Premium multipliers translated from GLM coefficients into actionable pricing factors.*
 
----
-
-## 📁 Repository Structure
